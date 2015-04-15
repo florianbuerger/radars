@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		172C0E311ADE882A00C31008 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 172C0E301ADE882A00C31008 /* main.m */; };
+		172C0E341ADE882A00C31008 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 172C0E331ADE882A00C31008 /* AppDelegate.m */; };
+		172C0E371ADE882A00C31008 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 172C0E361ADE882A00C31008 /* ViewController.m */; };
+		172C0E3A1ADE882A00C31008 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 172C0E381ADE882A00C31008 /* Main.storyboard */; };
+		172C0E3C1ADE882A00C31008 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 172C0E3B1ADE882A00C31008 /* Images.xcassets */; };
+		172C0E3F1ADE882A00C31008 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 172C0E3D1ADE882A00C31008 /* LaunchScreen.xib */; };
+		172C0E4B1ADE882A00C31008 /* XLIFF_RadarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 172C0E4A1ADE882A00C31008 /* XLIFF_RadarTests.m */; };
+		172C0E561ADE88B100C31008 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 172C0E541ADE88B100C31008 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		172C0E451ADE882A00C31008 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 172C0E231ADE882A00C31008 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 172C0E2A1ADE882A00C31008;
+			remoteInfo = "XLIFF Radar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		172C0E2B1ADE882A00C31008 /* XLIFF Radar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XLIFF Radar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		172C0E2F1ADE882A00C31008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		172C0E301ADE882A00C31008 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		172C0E321ADE882A00C31008 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		172C0E331ADE882A00C31008 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		172C0E351ADE882A00C31008 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		172C0E361ADE882A00C31008 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		172C0E391ADE882A00C31008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		172C0E3B1ADE882A00C31008 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		172C0E3E1ADE882A00C31008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		172C0E441ADE882A00C31008 /* XLIFF RadarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XLIFF RadarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		172C0E491ADE882A00C31008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		172C0E4A1ADE882A00C31008 /* XLIFF_RadarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLIFF_RadarTests.m; sourceTree = "<group>"; };
+		172C0E551ADE88B100C31008 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		172C0E281ADE882A00C31008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172C0E411ADE882A00C31008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		172C0E221ADE882A00C31008 = {
+			isa = PBXGroup;
+			children = (
+				172C0E2D1ADE882A00C31008 /* XLIFF Radar */,
+				172C0E471ADE882A00C31008 /* XLIFF RadarTests */,
+				172C0E2C1ADE882A00C31008 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		172C0E2C1ADE882A00C31008 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				172C0E2B1ADE882A00C31008 /* XLIFF Radar.app */,
+				172C0E441ADE882A00C31008 /* XLIFF RadarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		172C0E2D1ADE882A00C31008 /* XLIFF Radar */ = {
+			isa = PBXGroup;
+			children = (
+				172C0E321ADE882A00C31008 /* AppDelegate.h */,
+				172C0E331ADE882A00C31008 /* AppDelegate.m */,
+				172C0E351ADE882A00C31008 /* ViewController.h */,
+				172C0E361ADE882A00C31008 /* ViewController.m */,
+				172C0E541ADE88B100C31008 /* Localizable.strings */,
+				172C0E381ADE882A00C31008 /* Main.storyboard */,
+				172C0E3B1ADE882A00C31008 /* Images.xcassets */,
+				172C0E3D1ADE882A00C31008 /* LaunchScreen.xib */,
+				172C0E2E1ADE882A00C31008 /* Supporting Files */,
+			);
+			path = "XLIFF Radar";
+			sourceTree = "<group>";
+		};
+		172C0E2E1ADE882A00C31008 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				172C0E2F1ADE882A00C31008 /* Info.plist */,
+				172C0E301ADE882A00C31008 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		172C0E471ADE882A00C31008 /* XLIFF RadarTests */ = {
+			isa = PBXGroup;
+			children = (
+				172C0E4A1ADE882A00C31008 /* XLIFF_RadarTests.m */,
+				172C0E481ADE882A00C31008 /* Supporting Files */,
+			);
+			path = "XLIFF RadarTests";
+			sourceTree = "<group>";
+		};
+		172C0E481ADE882A00C31008 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				172C0E491ADE882A00C31008 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		172C0E2A1ADE882A00C31008 /* XLIFF Radar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 172C0E4E1ADE882A00C31008 /* Build configuration list for PBXNativeTarget "XLIFF Radar" */;
+			buildPhases = (
+				172C0E271ADE882A00C31008 /* Sources */,
+				172C0E281ADE882A00C31008 /* Frameworks */,
+				172C0E291ADE882A00C31008 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XLIFF Radar";
+			productName = "XLIFF Radar";
+			productReference = 172C0E2B1ADE882A00C31008 /* XLIFF Radar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		172C0E431ADE882A00C31008 /* XLIFF RadarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 172C0E511ADE882A00C31008 /* Build configuration list for PBXNativeTarget "XLIFF RadarTests" */;
+			buildPhases = (
+				172C0E401ADE882A00C31008 /* Sources */,
+				172C0E411ADE882A00C31008 /* Frameworks */,
+				172C0E421ADE882A00C31008 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				172C0E461ADE882A00C31008 /* PBXTargetDependency */,
+			);
+			name = "XLIFF RadarTests";
+			productName = "XLIFF RadarTests";
+			productReference = 172C0E441ADE882A00C31008 /* XLIFF RadarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		172C0E231ADE882A00C31008 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "keslcod GmbH";
+				TargetAttributes = {
+					172C0E2A1ADE882A00C31008 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					172C0E431ADE882A00C31008 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 172C0E2A1ADE882A00C31008;
+					};
+				};
+			};
+			buildConfigurationList = 172C0E261ADE882A00C31008 /* Build configuration list for PBXProject "XLIFF Radar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 172C0E221ADE882A00C31008;
+			productRefGroup = 172C0E2C1ADE882A00C31008 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				172C0E2A1ADE882A00C31008 /* XLIFF Radar */,
+				172C0E431ADE882A00C31008 /* XLIFF RadarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		172C0E291ADE882A00C31008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172C0E3A1ADE882A00C31008 /* Main.storyboard in Resources */,
+				172C0E561ADE88B100C31008 /* Localizable.strings in Resources */,
+				172C0E3F1ADE882A00C31008 /* LaunchScreen.xib in Resources */,
+				172C0E3C1ADE882A00C31008 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172C0E421ADE882A00C31008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		172C0E271ADE882A00C31008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172C0E371ADE882A00C31008 /* ViewController.m in Sources */,
+				172C0E341ADE882A00C31008 /* AppDelegate.m in Sources */,
+				172C0E311ADE882A00C31008 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172C0E401ADE882A00C31008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172C0E4B1ADE882A00C31008 /* XLIFF_RadarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		172C0E461ADE882A00C31008 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 172C0E2A1ADE882A00C31008 /* XLIFF Radar */;
+			targetProxy = 172C0E451ADE882A00C31008 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		172C0E381ADE882A00C31008 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				172C0E391ADE882A00C31008 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		172C0E3D1ADE882A00C31008 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				172C0E3E1ADE882A00C31008 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		172C0E541ADE88B100C31008 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				172C0E551ADE88B100C31008 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		172C0E4C1ADE882A00C31008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		172C0E4D1ADE882A00C31008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		172C0E4F1ADE882A00C31008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "XLIFF Radar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		172C0E501ADE882A00C31008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "XLIFF Radar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		172C0E521ADE882A00C31008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "XLIFF RadarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XLIFF Radar.app/XLIFF Radar";
+			};
+			name = Debug;
+		};
+		172C0E531ADE882A00C31008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "XLIFF RadarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XLIFF Radar.app/XLIFF Radar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		172C0E261ADE882A00C31008 /* Build configuration list for PBXProject "XLIFF Radar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				172C0E4C1ADE882A00C31008 /* Debug */,
+				172C0E4D1ADE882A00C31008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		172C0E4E1ADE882A00C31008 /* Build configuration list for PBXNativeTarget "XLIFF Radar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				172C0E4F1ADE882A00C31008 /* Debug */,
+				172C0E501ADE882A00C31008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		172C0E511ADE882A00C31008 /* Build configuration list for PBXNativeTarget "XLIFF RadarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				172C0E521ADE882A00C31008 /* Debug */,
+				172C0E531ADE882A00C31008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 172C0E231ADE882A00C31008 /* Project object */;
+}
